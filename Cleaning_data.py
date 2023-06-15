@@ -22,14 +22,9 @@ print(new_df.info())
 
 # if you want to change the original DataFrame use the "inplace = true" argument.
 
-df1 = pd.read_csv('data.csv')
+df1 = pd.read_csv('team_details.csv')
 
 df1.dropna(inplace=True)
 
 print(df1.to_string())
 print(df1.info())
-
-# Replace empty values
-# Argument "fillna()" method used to replace the empty cell with value. 
-
-
